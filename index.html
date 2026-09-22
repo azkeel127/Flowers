@@ -1,55 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Galaxy Services - Ninjabrine</title>
-    <link rel="icon" type="image/png" href="image.png" />
-    <link rel="stylesheet" href="style.css" />
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#090706">
+  <title>Para Sha 🌼</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body >
-    <header>
-        <h1>Galaxy Services</h1>
-    </header>
+<body>
+  <!-- Fondo dinámico: las flores y partículas se crean desde JavaScript -->
+  <div class="aurora"></div>
+  <div class="grain"></div>
+  <div id="petals"></div>
 
-    <nav aria-label="Menú principal">
-        <ul>
-            <li><a href="#about">Sobre mí</a></li>
-            <li><a href="tools.html">Herramientas</a></li>
-        </ul>
-    </nav>
+  <main class="scene">
+    <section class="card" id="card">
+      <div class="halo"></div>
 
-    <main>
-        <section id="about" tabindex="0" aria-labelledby="about-title">
-            <h2 id="about-title">¿Quiénes somos?</h2>
-            <p>
-                Somos un servicio web que ofrece páginas en línea para uso personal o negocios, ayudando a que tengan mayor alcance y un tono más serio y moderno.
-            </p>
-        </section>
+      <p class="eyebrow">PARA SHA · 20.09.26</p>
 
-        <section tabindex="0" aria-labelledby="webpages-title">
-            <h2 id="webpages-title">Acerca de las páginas web</h2>
-            <p>
-                Hospedamos tu página en GitHub y usamos lenguajes de programación como JavaScript, HTML y CSS para que tengas una página con un estilo moderno y profesional.
-            </p>
-        </section>
+      <div class="flower-stage" id="flowerStage" aria-label="Flores amarillas">
+        <!-- El ramo visual se genera con CSS/JS -->
+        <div class="flower flower-a"><span class="stem"></span><span class="bloom">✽</span></div>
+        <div class="flower flower-b"><span class="stem"></span><span class="bloom">✽</span></div>
+        <div class="flower flower-c"><span class="stem"></span><span class="bloom">✽</span></div>
+        <div class="flower flower-d"><span class="stem"></span><span class="bloom">✽</span></div>
+        <div class="flower flower-e"><span class="stem"></span><span class="bloom">✽</span></div>
+      </div>
 
-        <section id="contact" tabindex="0" aria-labelledby="contact-title">
-            <h2 id="contact-title">Contacto</h2>
-            <div class="social-icons" role="list">
-                <a href="https://www.instagram.com/azk_3el.5/" target="_blank" rel="noopener" title="Instagram" role="listitem" aria-label="Instagram">
-                    <img src="igm.png" alt="Icono de Instagram" />
-                </a>
-                <a href="https://youtube.com/@ninjabrine7yt?si=CRCYeAyn8HJrl7S3" target="_blank" rel="noopener" title="YouTube" role="listitem" aria-label="YouTube">
-                    <img src="yt.png" alt="Icono de YouTube" />
-                </a>
-                <a href="https://github.com/azkeel127" target="_blank" rel="noopener" title="GitHub" role="listitem" aria-label="GitHub">
-                    <img src="git.png" alt="Icono de GitHub" />
-                </a>
-            </div>
-        </section>
-    </main>
-<script src="script.js"></script>
+      <div class="copy">
+        <h1>Flores amarillas,<br><em>pero diferentes.</em></h1>
+        <p class="message">
+          No quería mandarte solamente unas flores.
+          Quería hacerte un pequeño lugar en internet,
+          con luz, movimiento y un montón de amarillo.
+        </p>
+      </div>
+
+      <button id="bloomButton" type="button">
+        <span>Haz florecer la pantalla</span>
+        <b>✦</b>
+      </button>
+
+      <div class="signature">— hecho especialmente para Sha</div>
+    </section>
+
+    <div class="hint">toca la pantalla · mueve el dedo · mira las flores</div>
+  </main>
+
+  <canvas id="sparkles"></canvas>
+  <script src="script.js"></script>
 </body>
 </html>
